@@ -2201,7 +2201,7 @@ jda-tabla .mat-expansion-panel-body {
   padding: 0 17px 16px !important;
 }
 jda-tabla table .mat-column-acciones {
-  min-width: 200px !important;
+  min-width: 255px !important;
   gap: 15px !important;
   display: none;
 }
@@ -2255,18 +2255,6 @@ jda-tabla mat-chip-row .mat-icon.mat-icon.notranslate.material-icons.mat-ligatur
 .mat-mdc-option.mdc-list-item--selected:not(.mdc-list-item--disabled) .mdc-list-item__primary-text,
 .mat-pseudo-checkbox-minimal.mat-pseudo-checkbox-checked::after, .mat-pseudo-checkbox-minimal.mat-pseudo-checkbox-indeterminate::after {
   color: #087021 !important;
-}
-
-.acciones-column-button {
-  width: var(--acciones-width, auto) !important;
-  min-width: var(--acciones-width, auto) !important;
-  max-width: var(--acciones-width, auto) !important;
-  flex: none !important;
-}
-
-.acciones-column-button mat-cell {
-  width: 100% !important;
-  justify-content: center !important;
 }
 
 @media (min-width: 1100px) {
