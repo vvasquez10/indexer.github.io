@@ -2257,20 +2257,16 @@ jda-tabla mat-chip-row .mat-icon.mat-icon.notranslate.material-icons.mat-ligatur
   color: #087021 !important;
 }
 
-.tabla-con-sticky-dinamico {
-  --sticky-column-width: auto;
+.acciones-column-button {
+  width: var(--acciones-width, auto) !important;
+  min-width: var(--acciones-width, auto) !important;
+  max-width: var(--acciones-width, auto) !important;
+  flex: none !important;
 }
 
-.tabla-con-sticky-dinamico .mat-column-acciones {
-  width: var(--sticky-column-width) !important;
-  min-width: var(--sticky-column-width) !important;
-  max-width: var(--sticky-column-width) !important;
-}
-
-/* Asegurar que los botones se ajusten al ancho disponible */
-.tabla-con-sticky-dinamico .mat-column-acciones jda-button {
-  width: 100%;
-  max-width: 100%;
+.acciones-column-button mat-cell {
+  width: 100% !important;
+  justify-content: center !important;
 }
 
 @media (min-width: 1100px) {
