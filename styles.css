@@ -2257,6 +2257,22 @@ jda-tabla mat-chip-row .mat-icon.mat-icon.notranslate.material-icons.mat-ligatur
   color: #087021 !important;
 }
 
+.tabla-con-sticky-dinamico {
+  --sticky-column-width: auto;
+}
+
+.tabla-con-sticky-dinamico .mat-column-acciones {
+  width: var(--sticky-column-width) !important;
+  min-width: var(--sticky-column-width) !important;
+  max-width: var(--sticky-column-width) !important;
+}
+
+/* Asegurar que los botones se ajusten al ancho disponible */
+.tabla-con-sticky-dinamico .mat-column-acciones jda-button {
+  width: 100%;
+  max-width: 100%;
+}
+
 @media (min-width: 1100px) {
   jda-tabla .containerAcordion {
     display: grid;
