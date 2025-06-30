@@ -2202,7 +2202,7 @@ jda-tabla .mat-expansion-panel-body {
 }
 jda-tabla table .mat-column-acciones {
   min-width: 255px !important;
-  gap: 15px !important;
+  justify-content: space-around !important;
   display: none;
 }
 jda-tabla table .mat-column-aviso {
